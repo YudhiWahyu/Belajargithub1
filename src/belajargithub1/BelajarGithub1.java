@@ -1,20 +1,14 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
 package belajargithub1;
 
-/**
- *
- * @author user
- */
 public class BelajarGithub1 {
-
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+String str = "Wahyudhi Noma H";
+
+String str1 = str.substring (0,5);
+String str2 = str.substring (3,8);
+
+        System.out.println("Nama Depan : " + str1);
+        System.out.println("Nama Depan : " + str2);
     }
     
 }
